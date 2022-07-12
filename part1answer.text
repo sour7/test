@@ -1,0 +1,109 @@
+// React js
+
+1.VDom is a concept (hypothetical) dom in react where the virtual representation of UI is kept in memory and synced with real dom.
+2. ES5=> has lower performace then ES6.
+ES6=>  lighter and faster then ES5
+
+3. i can update state in react by using a hook called useState()
+
+4. pure components render same o/p for same sates and this.props.
+
+5. it clones and return new element
+
+6. mapStateprops() use to store data of provided components;
+mapDispatchprops() use to provide action creator as props
+
+7. using redux-thunk
+
+12. easy to reuse 
+    easy to understand
+    
+13. to provide a differnt router (path ) in browser (frontend) we need react-router
+
+15. purpose of render() is to dispalay the html code inside the html element
+exampli: import React from 'react'
+import { create } from 'domain'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
+
+
+
+// NODE
+
+1. event loops continuously keep a check on callstack and task queue , when callstack become empty and if there is any task on queue will go in callstack and get excuted
+
+2. handle multiple async operation and provide better error handling
+
+3. const express = require("express");
+
+
+
+const app = express();
+const cors = require("cors");
+require("dotenv").config();
+
+const connect = require("./configs/db");
+
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static("public"));
+
+
+
+
+app.use("/", (req, res) => {
+  res.json({ message: "Hello World" });
+});
+
+const port = process.env.PORT || 8000;
+
+app.listen(port, async function () {
+  try {
+    await connect();
+    console.log(`listening on port ${port}`);
+  } catch (err) {
+    console.log(err);
+  }
+});
+
+4. a
+5.c
+6.d
+7. b
+8. a 
+9. b  
+10 d 
+
+// MongoDB
+
+1. developer can store structured as well unstructured data and aslo scalable
+
+2.allow to lock database
+
+12. mongoDB is a cross-platform document-oriented database program
+
+16. CRUD is create, read, update and delete  are operation performed with mongoDB data
+
+17. sharding is ditributing data among various host.
+
+18. aggregation means processing a large number of data through different stages
+
+19. NmaeSpace is basically name of database or name of collection.
+
+
+
+
+
+
+
+
+
+

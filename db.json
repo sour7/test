@@ -1,0 +1,105 @@
+{
+  "movies":
+  [{
+    "id": 1,
+    "name": "Sucker Punch",
+    "ratings": 2.7,
+    "release_date": "14/10/2021"
+  },
+   {
+    "id": 2,
+    "name": "Stay as You Are",
+    "ratings": 2.8,
+    "release_date": "15/07/2021"
+  }, {
+    "id": 3,
+    "name": "For Me and My Gal",
+    "ratings": 2.0,
+    "release_date": "18/04/2022"
+  }, {
+    "id": 4,
+    "name": "Helsinki Napoli All Night Long",
+    "ratings": 4.2,
+    "release_date": "09/07/2022"
+  }, {
+    "id": 5,
+    "name": "Disappeared, The",
+    "ratings": 1.3,
+    "release_date": "12/11/2021"
+  }, {
+    "id": 5,
+    "name": "Disappeared, The",
+    "ratings": 1.3,
+    "release_date": "12/11/2021"
+  }, {
+    "id": 7,
+    "name": "Thesis on a Homicide",
+    "ratings": 2.4,
+    "release_date": "18/05/2022"
+  }, {
+    "id": 8,
+    "name": "Chad Hanna",
+    "ratings": 2.0,
+    "release_date": "20/10/2021"
+  }, {
+    "id": 9,
+    "name": "Different from the Others (Anders als die Andern)",
+    "ratings": 4.6,
+    "release_date": "16/07/2021"
+  }, {
+    "id": 10,
+    "name": "Wipers Times, The",
+    "ratings": 4.7,
+    "release_date": "21/09/2021"
+  }, {
+    "id": 11,
+    "name": "Sex and Zen (Rou pu Tuan zhi tou Qing bao Jian)",
+    "ratings": 3.7,
+    "release_date": "13/03/2022"
+  }, {
+    "id": 12,
+    "name": "Appropriate Adult",
+    "ratings": 2.5,
+    "release_date": "01/06/2022"
+  }, {
+    "id": 13,
+    "name": "Lonely Man, The",
+    "ratings": 1.4,
+    "release_date": "20/03/2022"
+  }, {
+    "id": 14,
+    "name": "Katsastus",
+    "ratings": 2.1,
+    "release_date": "17/07/2021"
+  }, {
+    "id": 15,
+    "name": "Don Quixote (Don Quijote de Orson Welles)",
+    "ratings": 3.1,
+    "release_date": "12/03/2022"
+  }, {
+    "id": 16,
+    "name": "Luna Papa",
+    "ratings": 1.5,
+    "release_date": "15/04/2022"
+  }, {
+    "id": 17,
+    "name": "Purge (Puhdistus)",
+    "ratings": 4.8,
+    "release_date": "24/03/2022"
+  }, {
+    "id": 18,
+    "name": "Copying Beethoven",
+    "ratings": 2.0,
+    "release_date": "03/05/2022"
+  }, {
+    "id": 19,
+    "name": "Crash Dive",
+    "ratings": 3.9,
+    "release_date": "08/10/2021"
+  }, {
+    "id": 20,
+    "name": "Lovesick",
+    "ratings": 1.3,
+    "release_date": "20/10/2021"
+  }]
+}
