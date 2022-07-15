@@ -69,6 +69,7 @@ console.log(data)
                         <h2>Name:{e.name}</h2>
                         <h5>Rating:{e.ratings}</h5>
                         <p>Released date:{e.release_date}</p>
+                        <p>Price:{e.price}</p>
                         <button style={{ "height": "30px" }} onClick={()=>deleteMovie(e._id)}>delete</button>
                     </Box>
                 )
