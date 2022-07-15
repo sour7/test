@@ -1,15 +1,15 @@
 
 
-
-import { Movies } from './components/Movies'
+import {Routes, Route} from 'react-router-dom'
+import {Listing} from './components/Listing'
 
 function App() {
   
 
   return (
     <div className="App">
-      <Movies/>
-   
+     <Listing/>
+     
     </div>
   )
 }
